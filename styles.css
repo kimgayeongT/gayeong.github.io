@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+}
+* {
+    font-family: 'GmarketSansMedium';
+}
+.wrapper {
+    background-color: #ffc0cb; /**/
+    width: auto; /**/
+    height: auto; /**/
+    margin: 50px 50px; /**/
+    padding: 50px;
+    border-width:2px;
+    border-color: #ad8170;
+    border-style: dashed;
+    border-radius: 10px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper:hover{
+    box-shadow: 11px 11px 5px 3px #ad8170;/**/
+}
+h1{
+    font-size: 30px;
+}
+.contents li {
+    transition: all 0.4s;
+    background-image: url(heart_empty_icon_178700.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    padding: 0px 25px;
+    display: block;
+    width: fit-content;
+    list-style: none;
+}
+.list li:hover{
+    background-repeat: no-repeat;
+    background-color: pink;
+    font-weight: bold;
+}
+.sectionWorkspace{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px; /*0으로 변경*/
+}
+.sectionFriends{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px; /**/
+}
